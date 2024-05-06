@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.navbar {
+  background: rgb(23, 5, 34);
+  background: linear-gradient(
+    5deg,
+    rgba(23, 5, 34, 1) 21%,
+    rgba(81, 18, 120, 1) 43%,
+    rgba(173, 39, 255, 1) 54%,
+    rgba(255, 196, 46, 1) 83%
+  );
+}
+.watchdogtext {
+  font-family: "Chakra Petch", sans-serif;
+  background: linear-gradient(
+    47deg,
+    #ffa234 0%,
+    #ed62b1 50%,
+    #c553ed 75%,
+    #ffa234 97%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dogs {
+  font-family: "Chakra Petch", sans-serif;
+  color: white;
+}
+.textpopup {
+  background: linear-gradient(
+    47deg,
+    #ffa234 0%,
+    #ed62b1 50%,
+    #c553ed 75%,
+    #ffa234 97%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.typeaddressfield {
+  border: 1px solid rgba(131, 128, 128, 1);
+  padding: 0px 0px;
+  box-shadow: 0px 1px 6px rgba(131, 128, 128, 1);
+}
+.genbtn {
+  color: white;
+  border-left: 1px solid rgba(131, 128, 128, 1);
+}
+.mainarea {
+  background-image: url("images/bodybgimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.popupforfont {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+.dashfrontfont {
+  font-family: "Inter", sans-serif;
+}
+
+/* ////////////// */
+
+.loginbtn {
+  background: linear-gradient(
+    47deg,
+    #ffa234 0%,
+    #ed62b1 50%,
+    #c553ed 75%,
+    #ffa234 97%
+  );
+}
+
+.loginpagefont {
+  font-family: "Inter", sans-serif;
+}
+
+/* /////input field//// */
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border: 1px solid #69008d;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+}
+
+.form-label {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  color: rgb(181, 179, 179);
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  top: -8px;
+  font-size: 12px;
+  color: #69008d;
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* //////////// */
+
+.totalbalance {
+  font-family: "DM Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  background-color: #5b5959;
+  border-radius: 12px;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 12px;
+  height: 12px;
+}
+.trrgbcolor {
+  background: linear-gradient(
+    47deg,
+    #ffa234 0%,
+    #ed62b1 50%,
+    #c553ed 75%,
+    #ffa234 97%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ///////////// */
+
+.TransactionFont {
+  font-family: "DM Sans", sans-serif;
+}
